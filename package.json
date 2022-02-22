@@ -43,6 +43,7 @@
     "deep-is": "^0.1.4",
     "define-properties": "^1.1.3",
     "doctrine": "^3.0.0",
+    "dotenv": "^16.0.0",
     "emoji-regex": "^9.2.2",
     "es-abstract": "^1.19.1",
     "es-to-primitive": "^1.2.1",
@@ -117,6 +118,7 @@
     "loose-envify": "^1.4.0",
     "minimatch": "^3.1.2",
     "minimist": "^1.2.5",
+    "mongoose": "^5.13.14",
     "morgan": "^1.10.0",
     "ms": "^2.1.2",
     "natural-compare": "^1.4.0",
@@ -174,7 +176,8 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "author": "",
   "license": "ISC",
