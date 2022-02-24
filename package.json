@@ -158,6 +158,7 @@
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "side-channel": "^1.0.4",
+    "slugify": "^1.6.5",
     "string.prototype.matchall": "^4.0.6",
     "string.prototype.trimend": "^1.0.4",
     "string.prototype.trimstart": "^1.0.4",
